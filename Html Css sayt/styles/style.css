@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #08162B;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+}
+
+
+/* Header qismi */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-bottom: 115px;
+    align-items: center;
+}
+
+.header .header-left {
+    cursor: pointer;
+}
+
+.header .header-left span {
+    width: 42.18px;
+    height: 6.61px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.header .header-right .header-logo {
+    margin-right: 110px;
+}
+
+.header .header-right .header-links {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin-right: 50px;
+}
+
+.header .header-right .header-links:hover {
+    color: #F29494;
+}
+
+.header .header-right .header-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    background-color: #F29494;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.header .header-right .header-button:hover {
+    background: #f86f6f;
+    box-shadow: 0 0 30px #f53f3f;
+}
+
+
+/* Main qismi */
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 115px;
+}
+
+.main .main-left-top {
+    margin-left: 80px;
+    margin-bottom: 65px;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.main-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.5em;
+    color: #EF9C9C;
+    margin-bottom: 54px;
+}
+
+.main-text {
+    width: 532px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    color: #D8D8D8;
+}
+
+.main-left-bottom {
+    position: absolute;
+    left: -200px;
+}
+
+.clock-cards {
+    background: #2B3544;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 41px;
+    display: inline-block;
+    padding-top: 17px;
+    margin-right: 19px;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 51px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-style: normal;
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-right: 60px;
+}
